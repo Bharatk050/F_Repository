@@ -1,19 +1,7 @@
-<<<<<<< HEAD
 import random
 name = input('Enter your name: ')
 
-=======
-# handle_turn
-# current player
-# relation
 
-from ast import Break
-import random
-name = input('Enter your name: ')
-
-print("Disclaimer:\t Play until you win")
-
->>>>>>> ce35c7939a2a59f9a8d1f7b570906d8a56c7b212
 
 while True:
 
