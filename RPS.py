@@ -1,10 +1,24 @@
+<<<<<<< HEAD
 import random
 name = input('Enter your name: ')
 
+=======
+# handle_turn
+# current player
+# relation
+
+from ast import Break
+import random
+name = input('Enter your name: ')
+
+print("Disclaimer:\t Play until you win")
+
+>>>>>>> ce35c7939a2a59f9a8d1f7b570906d8a56c7b212
 
 while True:
 
     player = input(f'rock(R),paper(P),sissor(S)\nchoose one {name}: ')
+
     ranNo = random.randint(1, 3)
 
     if ranNo == 1:
@@ -13,6 +27,7 @@ while True:
         gamer = "P"
     if ranNo == 3:
         gamer = "S"
+
 
     if player not in ['R', 'S', 'P']:
         print("Invalid!!")
@@ -36,6 +51,7 @@ while True:
                 return False
             elif player == "S":
                 return True
+
     turn = handle_turn()
 
     if turn == None:
